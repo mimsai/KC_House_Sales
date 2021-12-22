@@ -35,76 +35,22 @@ O Dataset apresenta a Tabela "KC House Data", que contém informações sobre os
 Uma das primeiras partes do projeto é realizada no estudo do tipo de dados que temos disponíveis para o desenvolvimento do projeto. Nessa etapa são obtidos conhecimentos sobre o dataset: qual a quantidade de observações e atributos apresentados, quais os tipos de atributos, etc.
 
 
-2.	Feature Engineering
+2.  API - Geopandas
 
-Na etapa de Feature Engineering foram utilizadas transformações matemáticas das features para que fossem utilizadas ao máximo a maior quantidade de dados possíveis do dataset.
+Utilizada API Geopandas para obter o endereço completo dos imóveis por meio da latitude e longitude do dataset original.
 
-<h1 align="center">Questionário CFO</h1>
-
-O Mapa Mental pode ser utilizado como um “guia” para observar quais são as variáveis mais importantes para a Análise Exploratória dos Dados e quais serão mais relevantes para a criação das hipóteses sobre o desenvolvimento e insights que serão apresentados. Dado que o projeto tem a finalidade de predição de clientes pagantes ou devedores, devemos selecionar as variáveis que serão agentes para tal objetivo e quais atributos destes são mais importantes para a validação das hipóteses.
-
-<h1 align="center">
-  <img src="img/Credit_Risk_Dataset.png" />
-</h1>
-<h1 align="center">Análise Exploratória de Dados</h1>
-
-Após a filtragem de hipóteses serão realizadas as análises sobre as features e como estas agem sozinhas ou em combinação com outras features. O projeto teve oito hipóteses finais que foram validadas ou refutadas pelo estudo gráfico de cada uma delas (informações apresentadas no notebook Jupyter). 
-
-<h1 align="center">Melhores Insights - Hipóteses</h1>
-
-**H1.** Clientes com idades menores tendem a fazer mais empréstimos
-
-Verdadeiro.
-
-<p align="center">
-  <img src="./img/h1.png">
-</p>
-
-
-**H4.** Clientes que tem como finalidade para o empréstimo reformas residenciais são maioria
-
-Falso: Empréstimos para a Educação são maioria
-
-<p align="center">
-  <img src="./img/h4.png">
-</p>
-
-
-**H7.** Clientes com renda superior a 20000 tendem a pagar mais os empréstimos
-
-Verdadeiro.
-
-<p align="center">
-  <img src="./img/h7.png">
-</p>
-
-
-<h1 align="center">Machine Learning Modelling</h1>
-
-Para a escolha da técnica de Machine Learning que seria utilizada para o desenvolvimento dos modelos foram testados e coletados resultados de acurácia das seguintes técnicas:
-
-o	Naive Bayes;
-
-o	Decision Tree;
-
-o	Random Forest;
-
-o	KNN;
-
-o	Regression Logistic;
-
-o	SVM.
-
-Os resultados das acurácias de cada técnica foram concentrados de forma tabulada e comparados.
-
-<h1 align="center">
-  <img src="img/modelos_acc.png" />
-</h1>
 
 <h1 align="center">Obtenção dos resultados de forma remota</h1>
 
+A última parte do projeto foi o desenvolvimento de API e utilização de Heroku para disponibilizar dados em Cloud. É possível visualizar o dashboard disponível remoto por meio do link:
 
-A última parte do projeto foi o desenvolvimento de API e utilização de Heroku para disponibilizar dados em Cloud. 
+<h1 align="center">
+  <img src="img/p2.png " />
+</h1>
+
+<h1 align="center">
+  <img src="img/p3.png " />
+</h1>
 
 
 <h1 align="center">Referências</h1>
