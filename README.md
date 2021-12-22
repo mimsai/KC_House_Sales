@@ -44,6 +44,8 @@ Utilizada API Geopandas para obter o endereço completo dos imóveis por meio da
 
 A última parte do projeto foi o desenvolvimento de API e utilização de Heroku para disponibilizar dados em Cloud. É possível visualizar o dashboard disponível remoto por meio do link:
 
+https://analytcs-model-house-rocket.herokuapp.com/
+
 <h1 align="center">
   <img src="img/p2.png " />
 </h1>
